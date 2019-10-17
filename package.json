@@ -1,8 +1,9 @@
 {
   "name": "@yo1dog/extendable-error",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helpful error classes",
   "main": "lib/ExtendableError.js",
+  "types": "lib/ExtendableError.d.ts",
   "directories": {
     "lib": "lib"
   },
