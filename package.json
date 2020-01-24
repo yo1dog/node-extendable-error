@@ -1,6 +1,6 @@
 {
   "name": "@yo1dog/extendable-error",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Helpful error classes",
   "main": "lib/ExtendableError.js",
   "types": "lib/ExtendableError.d.ts",
@@ -8,7 +8,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx tsc -p ./jsconfig.json && npx eslint ."
   },
   "repository": {
     "type": "git",
